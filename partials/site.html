@@ -1,10 +1,9 @@
 <div id="site-header">
   <div class="site-menu">
-    <a ui-sref="site.home">home</a>
-    <a ui-sref="site.contact">contact</a>
+    <button ng-click="goHome()">home</button>
+    <button ng-click="goContact()">contact</button>
   </div>
 </div>
 
 <div id="site-content">
-  <div ng-view></div>
 </div>

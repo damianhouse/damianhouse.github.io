@@ -2,22 +2,21 @@
 
 /* App Module */
 
-var damianportfolioApp = angular.module('damianportfolioApp', [
-  'ngRoute'
-]);
+var portfolio = angular.module('portfolio', ['ngRoute']
+);
 
-damianportfolioApp.config(['$routeProvider',
-  function($routeProvider) {
-    $routeProvider.
+portfolio.config(function($routeProvider) {
+  $routeProvider
+
       .when('/contact', {
         templateUrl: 'partials/contact.html',
-        controller: 'ContactCtrl'
+        controller: 'ContactController'
       })
       .when('/site', {
         templateUrl: 'partials/site.html',
-        controller: 'SiteCtrl'
+        controller: 'SiteController'
       })
       .otherwise({
         redirectTo: '/site'
       });
-  }]);
+  });
