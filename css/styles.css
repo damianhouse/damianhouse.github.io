@@ -1,0 +1,13 @@
+body {
+  padding-left:10%;
+  padding-right:10%;
+  background: #FFF;
+}
+
+#site-header {
+  background: #FFF;
+}
+
+#site-content {
+  background: #CCC;
+}
