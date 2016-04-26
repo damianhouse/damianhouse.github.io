@@ -1,13 +1,23 @@
-body {
-  padding-left:10%;
-  padding-right:10%;
-  background: #FFF;
+.body {
+  padding-left: 10%;
+  padding-right: 10%;
+  background: #000000;
 }
 
 #site-header {
-  background: #FFF;
-}
+  background: #000000;
+  color: white;
+  font-size: 2em;
+  height: 50px;
+  }
 
 #site-content {
-  background: #CCC;
+  background: #000000;
+}
+
+.hero-image {
+width:800px;
+position:absolute;
+background-color:#000000;
+border-radius: 20px;
 }

@@ -12,11 +12,11 @@ portfolio.config(function($routeProvider) {
         templateUrl: 'partials/contact.html',
         controller: 'ContactController'
       })
-      .when('/site', {
+      .when('/', {
         templateUrl: 'partials/site.html',
         controller: 'SiteController'
       })
       .otherwise({
-        redirectTo: '/site'
+        redirectTo: '/'
       });
   });
