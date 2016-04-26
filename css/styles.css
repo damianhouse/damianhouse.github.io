@@ -8,15 +8,20 @@
   background: #000000;
   color: white;
   font-size: 2em;
-  height: 50px;
   }
-
+#site-menu {
+  height: 50px;
+}
+.button {
+  display: inline-block;
+}
 #site-content {
   background: #000000;
 }
 
 .hero-image {
-width:800px;
+padding-top: 100px;
+width:600px;
 position:absolute;
 background-color:#000000;
 border-radius: 20px;

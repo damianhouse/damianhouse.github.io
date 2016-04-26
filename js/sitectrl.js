@@ -9,4 +9,8 @@ portfolio.controller('SiteController', [ '$location', '$scope', function($locati
     $location.path('/contact');
   };
 
+  $scope.goResume = function() {
+    $location.path('/resume');
+  };
+
 }]);

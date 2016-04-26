@@ -1,4 +1,4 @@
-portfolio.controller('ContactController', [ '$location', '$scope', function($location, $scope){
+portfolio.controller('ResumeController', [ '$location', '$scope', function($location, $scope){
 
 
   $scope.goHome = function() {

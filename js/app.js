@@ -12,6 +12,10 @@ portfolio.config(function($routeProvider) {
         templateUrl: 'partials/contact.html',
         controller: 'ContactController'
       })
+      .when('/resume', {
+        templateUrl: 'partials/resume.html',
+        controller: 'ResumeController'
+      })
       .when('/', {
         templateUrl: 'partials/site.html',
         controller: 'SiteController'
