@@ -1,16 +1,28 @@
+body {
+  margin:0px;
+}
 .body {
   padding-left: 10%;
   padding-right: 10%;
   background: #000000;
 }
-
+.clickables {
+  height: 40px;
+}
+.glyphicon-home {
+  font-size:1em;
+  padding-left:0px;
+  margin-left:0px;
+}
 #site-header {
+  width: 100%;
   background: #000000;
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   }
 #site-menu {
-  height: 50px;
+  width:100%;
+  padding:0;
 }
 .button {
   display: inline-block;
