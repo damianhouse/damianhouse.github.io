@@ -41,6 +41,7 @@
 }
 .hero-image {
   border-radius: 20px;
+  opacity: .8;
 }
 .mastfoot {
   bottom: 0;
