@@ -1,14 +1,8 @@
-/*body {
-  margin:0px;
-}*/
 .container-fluid {
   padding: 20px;
 }
 .body {
-  /*padding-left: 10%;
-  padding-right: 10%;*/
   background: #000000;
-  /*padding-bottom: 60px;*/
 }
 .clickables {
   height: 40px;
