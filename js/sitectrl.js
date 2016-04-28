@@ -1,4 +1,4 @@
-portfolio.controller('SiteController', [ '$location', '$scope', function($location, $scope){
+portfolio.controller('SiteController', [ '$location', '$scope' ,'$animate', function($location, $scope, $animate){
 
 
   $scope.goHome = function() {
