@@ -36,6 +36,9 @@
 #site-content {
   background: #000000;
 }
+.second-half {
+  padding-top: 150px;
+}
 .things-in-row {
   padding-top: 100px;
 }
