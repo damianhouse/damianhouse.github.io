@@ -5,7 +5,7 @@
   background: #000000;
 }
 .clickables {
-  height: 40px;
+  height: 60px;
 }
 .glyphicon-home {
   font-size:1em;
@@ -30,6 +30,10 @@
   width:100%;
   padding:0;
 }
+.resume {
+  height: 60px;
+  color: white;
+}
 .button {
   display: inline-block;
 }
@@ -40,23 +44,16 @@
   padding-top: 150px;
 }
 .things-in-row {
-  padding-top: 100px;
+  padding-top: 60px;
 }
 .hero-image {
   border-radius: 20px;
   opacity: .8;
 }
-.mastfoot {
-  bottom: 0;
-  position: absolute;
-  width: 100%;
-  height: 60px;
-  text-align: center;
-  padding-right: 20%;
-}
+
 .wrapper {
   position: relative;
 }
 .footer {
-  padding-top: 70px;
+  padding-top: 30px;
 }
