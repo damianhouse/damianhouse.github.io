@@ -11,7 +11,15 @@
 .glyphicon-home {
   font-size:1em;
   padding-left:0px;
-  margin-left:0px;
+}
+#name-header {
+  padding-top: 30px;
+}
+#contact {
+  margin-left: 0;
+  float: right;
+  width: 10%;
+  text-align: right;
 }
 .email {
   padding-top: 60px;
@@ -47,6 +55,8 @@
 }
 .second-half {
   padding-top: 150px;
+  text-align: center;
+  padding-right: 80px;
 }
 .things-in-row {
   padding-top: 60px;
