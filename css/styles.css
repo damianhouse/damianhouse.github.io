@@ -13,6 +13,9 @@
   padding-left:0px;
   float: left;
 }
+.logo-links {
+  height: 70px;
+}
 #name-header {
   padding-top: 60px;
   padding-left: 150px;
