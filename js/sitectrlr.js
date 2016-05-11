@@ -9,8 +9,8 @@ portfolio.controller('SiteController', [ '$location', '$scope' ,'$animate', func
     $location.path('/contact');
   };
 
-  $scope.goResume = function() {
-    $location.path('/resume');
-  };
+  $scope.goWork = function() {
+    $location.path('/work');
+  }
 
 }]);

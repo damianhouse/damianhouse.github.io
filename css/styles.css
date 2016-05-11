@@ -11,16 +11,31 @@
 .glyphicon-home {
   font-size:1em;
   padding-left:0px;
+  float: left;
 }
 #name-header {
   padding-top: 60px;
   padding-left: 150px;
+}
+#name-work {
+  text-align: center;
+  padding-top: 60px;
+}
+.work-row {
+  padding-top: 60px;
+  float: center;
+  text-align: center;
 }
 #contact {
   margin-left: 0;
   float: right;
   width: 10%;
   text-align: right;
+}
+#work {
+  float: center;
+  width: 10%;
+  text-align: center;
 }
 .email {
   padding-top: 60px;
