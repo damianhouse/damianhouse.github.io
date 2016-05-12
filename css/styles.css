@@ -62,6 +62,9 @@
   height: 60px;
   color: white;
 }
+.resume:hover {
+  color: grey;
+}
 .resume-grid {
   padding-top: 80px;
   text-align: center;
