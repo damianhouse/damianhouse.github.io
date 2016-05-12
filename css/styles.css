@@ -90,7 +90,10 @@
   border-radius: 20px;
   opacity: .8;
 }
-
+.work-photos-row {
+  padding-top: 60px;
+  padding-left: 60px;
+}
 .wrapper {
   position: relative;
 }
