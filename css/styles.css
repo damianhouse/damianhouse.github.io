@@ -83,6 +83,10 @@
   text-align: center;
   padding-right: 80px;
 }
+.pic {
+  width: 300px;
+  padding-top: 60px;
+}
 .things-in-row {
   padding-top: 60px;
 }
@@ -92,7 +96,6 @@
 }
 .work-photos-row {
   padding-top: 60px;
-  padding-left: 60px;
 }
 .wrapper {
   position: relative;
