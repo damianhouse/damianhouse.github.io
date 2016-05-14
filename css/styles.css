@@ -13,6 +13,12 @@
   padding-left:0px;
   float: left;
 }
+.work-title {
+  padding-top: 60px;
+  text-align: center;
+  padding-right: 80px;
+  color: white;
+}
 .logo-links {
   height: 70px;
 }
@@ -21,8 +27,9 @@
   padding-left: 150px;
 }
 #name-work {
-  text-align: center;
   padding-top: 60px;
+  text-align: center;
+  padding-right: 40px;
 }
 .work-row {
   padding-top: 60px;
@@ -93,6 +100,7 @@
 .hero-image {
   border-radius: 20px;
   opacity: .8;
+  padding-top: 60px;
 }
 .work-photos-row {
   padding-top: 60px;
