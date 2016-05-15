@@ -57,6 +57,10 @@
   color: white;
   text-indent: 50px;
 }
+.work-text {
+  color: white;
+  text-align: center;
+}
 #site-header {
   width: 100%;
   text-align: left;
@@ -97,6 +101,7 @@
   width: 300px;
   padding-top: 60px;
 }
+
 .things-in-row {
   padding-top: 60px;
 }
@@ -104,6 +109,12 @@
   border-radius: 20px;
   opacity: .8;
   padding-top: 60px;
+}
+.work-image {
+  border-radius: 20px;
+  opacity: .8;
+  padding-top: 60px;
+  padding-right: 50%;
 }
 .work-photos-row {
   padding-top: 60px;
