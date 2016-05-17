@@ -51,7 +51,7 @@
   text-align: center;
 }
 .email {
-  padding-top: 60px;
+  padding-top: 20px;
 }
 .me-text {
   color: white;
@@ -101,7 +101,10 @@
   width: 300px;
   padding-top: 60px;
 }
-
+.social-buttons {
+  padding-top: 20px;
+  padding-bottom: 0;
+}
 .things-in-row {
   padding-top: 60px;
 }
