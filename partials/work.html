@@ -1,18 +1,14 @@
 <div class="container-fluid">
-  <div class="row">
-    <div class="col-sm-12">
-        <div id="site-header">
-          <div class="site-menu">
-            <div class="button glyphicon glyphicon-home" ng-click="goHome()"></div>
-            <div id="work" class="col-sm-12 col-sm-offset-5">
-              <div class="button" ng-click="goWork()">work</div>
-            </div>
-            <div id="contact" class="col-sm-12 col-sm-offset-11">
-              <div class="button" ng-click="goContact()">contact</div>
-            </div>
-          </div>
-          <h1 id="name-work">Damian House</h1>
-      </div>
+  <div>
+    <h1 id="name-work">Damian House</h1>
+  </div>
+  <div id="site-header">
+    <div class="button glyphicon glyphicon-home" ng-click="goHome()"></div>
+    <div id="work" class="col-sm-12 col-sm-offset-5">
+      <div class="button" ng-click="goWork()">work</div>
+    </div>
+    <div id="contact" class="col-sm-12 col-sm-offset-6">
+      <div class="button" ng-click="goContact()">contact</div>
     </div>
   </div>
   <div class="row">
@@ -22,12 +18,14 @@
       </div>
     </div>
   </div>
+  <div class="work-title">Trind</div>
   <div class="row">
     <div class="col-sm-12">
       <div class="col-sm-2 col-sm-offset-5">
-        <h2 class="work-title">Trind</h2>
+        <!-- <div class="work-title">Trind</div> -->
       </div>
     </div>
+  </div>
     <div class="row">
       <div class="col-sm-12">
         <div class="col-sm-6 col-sm-offset-3">
@@ -36,20 +34,17 @@
         </div>
       </div>
   </div>
-  <div class="row-fluid">
-    <div class="col-sm-12">
-      <div class="col-sm-12 col-md-3">
-        <img src="img/trind-landing.jpg" class="pic">
-      </div>
-      <div class="col-sm-12 col-md-3">
-        <img src="img/trind-index.jpg" class="pic">
-      </div>
-      <div class="col-sm-12 col-md-3">
-        <img src="img/trind-details.jpg" class="pic">
-      </div>
-      <div class="col-sm-12 col-md-3">
-        <img src="img/trind-conversations.jpg" class="pic">
-      </div>
-    </div>
-  </div>
+  <div class="container slider">
+    <img ng-repeat="slide in slides" class="slide"
+         ng-hide="!isCurrentSlideIndex($index)" ng-src="{{slide.image}}">
+    <a class="arrow prev" href="#" ng-click="nextSlide()"></a>
+    <a class="arrow next" href="#" ng-click="prevSlide()"></a>
+<nav class="nav">
+<div class="wrapper">
+<ul class="dots">
+<li class="dot" ng-repeat="slide in slides">
+                    <a href="#" ng-class="{'active':isCurrentSlideIndex($index)}"
+                       ng-click="setCurrentSlideIndex($index);">{{slide.description}}</a></li>
+</ul></div>
+</nav>
 </div>
