@@ -9,23 +9,18 @@ portfolio.controller('WorkController', [ '$location', '$scope' ,'$animate', func
     var newWidth = 600 + slides.length + 1;
     $scope.slides = [{
         image: "img/trind-landing.jpg",
-        text: ['Nice image','Awesome photograph','That is so cool','I love that'][slides.length % 4],
         id: currIndex++
       }, {
         image: "img/trind-index.jpg",
-        text: ['Nice image','Awesome photograph','That is so cool','I love that'][slides.length % 4],
         id: currIndex++
       }, {
         image: "img/trind-details.jpg",
-        text: ['Nice image','Awesome photograph','That is so cool','I love that'][slides.length % 4],
         id: currIndex++
       }, {
         image: "img/trind-me.jpg",
-        text: ['Nice image','Awesome photograph','That is so cool','I love that'][slides.length % 4],
         id: currIndex++
       },{
-        image: "img/trind-conversations",
-        text: ['Nice image','Awesome photograph','That is so cool','I love that'][slides.length % 4],
+        image: "img/trind-conversations.jpg",
         id: currIndex++
       }];
 
