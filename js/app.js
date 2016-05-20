@@ -2,7 +2,7 @@
 
 /* App Module */
 
-var portfolio = angular.module('portfolio', ['ngRoute', 'ngAnimate']
+var portfolio = angular.module('portfolio', ['ngRoute', 'ngAnimate', 'ui.bootstrap']
 );
 
 portfolio.config(function($routeProvider) {
