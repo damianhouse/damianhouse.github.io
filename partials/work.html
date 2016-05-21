@@ -1,22 +1,24 @@
-<div class="container-fluid">
+<div class="container">
   <div>
     <h1 id="name-work">Damian House</h1>
   </div>
   <div id="site-header">
-    <div class="button glyphicon glyphicon-home" ng-click="goHome()"></div>
-    <div id="work" class="col-sm-12 col-sm-offset-5">
-      <div class="button" ng-click="goWork()">work</div>
-    </div>
-    <div id="contact" class="col-sm-12 col-sm-offset-6">
-      <div class="button" ng-click="goContact()">contact</div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-xs-12">
-      <div class="col-md-3 col-md-offset-3">
-        <img src="img/upsidedown.jpg" class="work-image">
+    <div class="row">
+      <div class="button glyphicon glyphicon-home" ng-click="goHome()"></div>
+      <div id="work" class="col-sm-12 col-sm-offset-5">
+        <div class="button" ng-click="goWork()">work</div>
+      </div>
+      <div id="contact" class="col-sm-12 col-sm-offset-6">
+        <div class="button" ng-click="goContact()">contact</div>
       </div>
     </div>
+  </div>
+</div>
+<div class="container-fluid">
+  <div class="row">
+      <div class="col-xs-12 col-md-3 col-md-offset-3">
+        <img src="img/upsidedown.jpg" class="work-image">
+      </div>
   </div>
   <div class="work-title">Trind</div>
   <div class="row">
@@ -34,11 +36,13 @@
         </div>
       </div>
   </div>
-    <div style="height: 300px">
-      <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-        <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-          <img ng-src="{{slide.image}}" style="margin:auto;">
-        </uib-slide>
-      </uib-carousel>
+    <div class="col-xs-12">
+      <div style="height: 300px">
+        <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+          <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+          </uib-slide>
+        </uib-carousel>
+      </div>
     </div>
 </div>
