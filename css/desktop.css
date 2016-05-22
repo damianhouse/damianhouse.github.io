@@ -1,0 +1,9 @@
+@media only screen and (min-width: 481px) {
+	.body {
+		padding-left:40px;
+		padding-right: -15px;
+	}
+	.work-image {
+	  padding-left: 30px;
+	}
+}
