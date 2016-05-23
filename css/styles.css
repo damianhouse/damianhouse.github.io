@@ -10,7 +10,7 @@
   height: 140px;
   padding-top: 40px;
 }
-.work-carousel {
+#work-carousel {
   padding-top: 60px;
 }
 .glyphicon-home {
@@ -92,8 +92,6 @@
 }
 .second-half {
   padding-top: 140px;
-  text-align: center;
-  padding-right: 80px;
 }
 .pic {
   width: 300px;
