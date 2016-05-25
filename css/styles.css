@@ -31,9 +31,6 @@
 .logo-links {
   height: 70px;
 }
-#contact-header {
-  padding-top: 60px;
-}
 #name-work {
   padding: 0;
   /*margin:0;*/
@@ -45,8 +42,8 @@
   text-align: center;
 }
 #contact {
-  margin-left: 0;
-  float: right;
+  /*margin-left: 0;*/
+  /*float: right;*/
   width: 20%;
   text-align: right;
 }
