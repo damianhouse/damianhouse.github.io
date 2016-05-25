@@ -12,7 +12,7 @@
 	.site-header {
 		/*padding-top: 10px;*/
 		/*margin: 0;*/
-		/*display: inline;*/
+		display: inline-block;
 	}
 
 }
