@@ -20,7 +20,7 @@
   float: left;
 }
 .work-title {
-  padding: 140px 0;
+  padding: 60px 0;
   text-align: center;
   color: white;
   font-size: 2em;
@@ -29,8 +29,8 @@
   height: 70px;
 }
 #name-work {
-  padding-top: 0;
-  /*font-size: 2.5em;*/
+  padding: 0;
+  /*margin:0;*/
   text-align: center;
 }
 .work-row {
@@ -38,9 +38,11 @@
   float: center;
   text-align: center;
 }
-.work-title.i:hover {
-
-}
+/*#contact {
+  float: center;
+  width: 10%;
+  /*text-align: left;*/
+}*/
 #work {
   float: center;
   width: 10%;
