@@ -12,6 +12,7 @@
 	.site-header {
 		padding: 0;
 		height: 60px;
+		width: 100%;
 		/*margin: 0;*/
 		display: inline-block;
 	}
