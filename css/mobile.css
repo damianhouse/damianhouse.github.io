@@ -10,7 +10,8 @@
 		padding: 20px 80px 20px 30px;
 	}*/
 	.site-header {
-		/*padding: 0;*/g
+		padding: 0;
+		width: 100%;
 		/*margin: 0;*/
 		/*display: inline;*/
 	}
