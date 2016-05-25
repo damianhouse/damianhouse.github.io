@@ -14,9 +14,6 @@
 #work-carousel {
   padding-top: 60px;
 }
-.site-header {
-  padding-right: 20px;
-}
 .glyphicon-home {
   font-size:1em;
   padding-left:0px;
@@ -42,9 +39,9 @@
   text-align: center;
 }
 #contact {
-  float: center;
+  /*float: center;*/
   width: 10%;
-  text-align: center;
+  /*text-align: left;*/
 }
 #work {
   float: center;
