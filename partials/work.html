@@ -21,7 +21,11 @@
       <img src="img/upsidedown.jpg" class="work-image">
     </div>
   </div>
-  <div class="work-title">Trind</div>
+  <div class="work-title">Trind
+    <a target="_blank" href="https://github.com/damianhouse/trind">
+      <i class="fa fa-github fa" aria-hidden="true"></i>
+    </a>
+  </div>
   <div class="row">
     <div class="col-sm-12">
       <div class="col-sm-6 col-sm-offset-3">
@@ -30,13 +34,15 @@
       </div>
     </div>
   </div>
-  <div id="work-carousel" class="col-xs-12">
-    <div style="height: 300px">
-      <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
-        <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
-          <img ng-src="{{slide.image}}" style="margin:auto;">
-        </uib-slide>
-      </uib-carousel>
+  <div class="row">
+    <div id="work-carousel" class="col-xs-12">
+      <div style="height: 300px">
+        <uib-carousel active="active" interval="myInterval" no-wrap="noWrapSlides">
+          <uib-slide ng-repeat="slide in slides track by slide.id" index="slide.id">
+            <img ng-src="{{slide.image}}" style="margin:auto;">
+          </uib-slide>
+        </uib-carousel>
+      </div>
     </div>
   </div>
 </div>
