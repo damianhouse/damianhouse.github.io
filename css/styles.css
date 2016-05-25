@@ -14,6 +14,9 @@
 #work-carousel {
   padding-top: 60px;
 }
+.site-header {
+  padding-right: 20px;
+}
 .glyphicon-home {
   font-size:1em;
   padding-left:0px;
@@ -65,13 +68,6 @@
   text-align: center;
   font-size: 1.25em;
 }
-#site-header {
-  width: 100%;
-  background: #000000;
-  color: white;
-  font-size: 2em;
-  padding: 10px 0 0 0;
-  }
 .resume {
   height: 60px;
   color: white;
@@ -85,7 +81,7 @@
 }
 .button {
   color: white;
-  text-size: 2em;
+  font-size: 2em;
 }
 .button:hover {
   color: grey;

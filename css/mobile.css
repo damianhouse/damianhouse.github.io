@@ -6,7 +6,7 @@
 		width:100%;
 		padding-left: 10px;
 	}
-	/*.row {
-		padding-left: 20px;
-	}*/
+	.site-header {
+	  padding-right: 30px;
+	}
 }
