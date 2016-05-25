@@ -72,8 +72,10 @@
   padding-top: 80px;
   text-align: center;
 }
-.button {
+.menu-button {
   color: white;
+}
+.button {
   font-size: 2em;
 }
 .button:hover {
