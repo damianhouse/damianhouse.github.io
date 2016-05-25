@@ -5,6 +5,7 @@
 .body {
   background: #000000;
   margin: 0;
+  font-family: 'Muli', sans-serif;
 }
 .clickables {
   height: 140px;
@@ -57,16 +58,18 @@
 .me-text {
   color: white;
   text-indent: 50px;
+  font-size: 1.25em;
 }
 .work-text {
   color: white;
   text-align: center;
+  font-size: 1.25em;
 }
 #site-header {
   width: 100%;
   background: #000000;
   color: white;
-  font-size: 1.5em;
+  font-size: 2em;
   padding: 10px 0 0 0;
   }
 .resume {
