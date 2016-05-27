@@ -40,6 +40,11 @@
   width: 10%;
   text-align: center;
 }
+#contact {
+  float: center;
+  width: 10%;
+  text-align: center;
+}
 .email {
   padding: 20px 0;
 }
