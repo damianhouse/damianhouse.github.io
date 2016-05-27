@@ -9,11 +9,11 @@ portfolio.config(function($routeProvider) {
   $routeProvider
       .when('/contact', {
         templateUrl: 'partials/contact.html',
-        controller: 'ContactController'
+        controller: 'ApplicationController'
       })
       .when('/', {
         templateUrl: 'partials/site.html',
-        controller: 'SiteController'
+        controller: 'ApplicationController'
       })
       .when('/work', {
         templateUrl: 'partials/work.html',
