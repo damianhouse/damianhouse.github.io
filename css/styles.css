@@ -7,8 +7,17 @@
   height: 140px;
   padding-top: 40px;
 }
+.work-github {
+  font-size: .4em;
+}
 #work-carousel {
   padding-top: 60px;
+}
+.front-end {
+  float: left;
+}
+.back-end {
+  float: right;
 }
 .glyphicon-home {
   font-size:1em;
@@ -46,6 +55,7 @@
   color: white;
   text-indent: 50px;
   font-size: 1.25em;
+  padding-left: 20px;
 }
 .work-text {
   color: white;
