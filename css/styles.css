@@ -54,7 +54,7 @@
 .me-text {
   color: white;
   text-indent: 50px;
-  font-size: 1.25em;
+  font-size: .8em;
   padding-left: 20px;
 }
 .work-text {
@@ -86,7 +86,7 @@
   background: #000000;
 }
 .second-half {
-  padding-top: 140px;
+  padding-top: 90px;
 }
 .pic {
   width: 300px;
